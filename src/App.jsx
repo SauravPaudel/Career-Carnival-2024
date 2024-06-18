@@ -1,5 +1,6 @@
 import './App.css'
 import logo from './/assets/carnival.png'
+import './time'
 
 function App() {
   const seconds = document.querySelector(".seconds .number"),
@@ -36,7 +37,6 @@ const timeFunction = setInterval(() => {
   hours.textContent = hourValue < 10 ? `0${hourValue}` : hourValue;
   days.textContent = dayValue < 10 ? `0${dayValue}` : dayValue;
 }, 1000); //1000ms = 1s
-
   return (
     <>
        <section className="container">

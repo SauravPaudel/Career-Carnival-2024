@@ -46,7 +46,7 @@ const timeFunction = setInterval(() => {
         Our website is under construction. We're working hard to improve our
         website and we'll ready to launch after.
       </p>
-      <div className="time-content">
+      {/* <div className="time-content">
         <div className="time days">
           <span className="number"></span>
           <span className="text">days</span>
@@ -63,7 +63,7 @@ const timeFunction = setInterval(() => {
           <span className="number"></span>
           <span className="text">seconds</span>
         </div>
-      </div>
+      </div> */}
 
       <div className="email-content">
         <p>Subscribe now to get the latest updates!</p>
